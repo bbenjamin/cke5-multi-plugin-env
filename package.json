@@ -23,8 +23,8 @@
     "webpack-cli": "^3.3.12"
   },
   "scripts": {
-    "start": "yarn manifest && webpack --mode development --watch",
-    "build": "yarn manifest && webpack --mode development --dll",
+    "watch": "yarn manifest && webpack --mode development --watch",
+    "build": "yarn manifest && webpack --mode development",
     "manifest": "node scripts/manifest.js"
   }
 }
