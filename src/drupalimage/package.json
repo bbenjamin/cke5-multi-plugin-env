@@ -1,0 +1,29 @@
+{
+  "name": "ckeditor5-drupal-image",
+  "version": "1.0.0",
+  "description": "Drupal specific attributes and overrides for CKEditor5 Image",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dll": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zrpnr/ckeditor5-drupal-image.git"
+  },
+  "author": "Peter Weber (zrpnr)",
+  "license": "GPL-2.0-or-later",
+  "bugs": {
+    "url": "https://github.com/zrpnr/ckeditor5-drupal-image/issues"
+  },
+  "homepage": "https://github.com/zrpnr/ckeditor5-drupal-image#readme",
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "terser-webpack-plugin": "^3.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^4.4.0"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-upload": "^24.0.0"
+  }
+}
