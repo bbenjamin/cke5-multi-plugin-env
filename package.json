@@ -24,7 +24,7 @@
   },
   "scripts": {
     "watch": "yarn manifest && webpack --mode development --watch",
-    "build": "yarn manifest && webpack --mode development",
+    "build": "yarn manifest && webpack",
     "manifest": "node scripts/manifest.js"
   }
 }
