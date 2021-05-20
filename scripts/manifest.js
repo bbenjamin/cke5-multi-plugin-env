@@ -1,4 +1,12 @@
 // Generates a manifest if one is not available.
+// @todo the generated manifest can potentially be deleted if a dependency
+//   changes. Copying to another directory could mitigate this, but it also
+//   increases the risk of the manifest being out of sync with the CKEditor 5
+//   manifest.
+//
+// @todo there should be a way of enforcing version consistency between the
+//    Github CKEditor 5 used to create the manifest and the CKEditor version
+//    being used. Maybe this could happen in Drupal test coverage.
 
 const fs = require('fs');
 const { exec } = require("child_process");
